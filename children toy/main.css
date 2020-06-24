@@ -1,0 +1,246 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    float: none;
+    border: none;
+}
+body{
+    font-family: 宋体;
+    font-size: 12px;
+    cursor: auto;
+    display: block;
+}
+
+#childMain{
+    width: 1024px;
+    margin: 0 auto 0 auto;
+}
+#childNav{
+    width: 1024px;
+    height: 39px;
+    background: url("img/01.jpg") no-repeat scroll 0 0;
+    margin-top: 15px;
+}
+#childNav p{
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 130px;
+}
+#childNav a{
+    color: #000000;
+    text-decoration: none;
+}
+#childNav a:hover{
+    color: purple;
+}
+#childLogo{
+    width: 1024px;
+    margin-top: 5px;
+}
+#logoLeft{
+    width: 239px;
+    height: 140px;
+    float: left;
+}
+#logoRight{
+    width: 785px;
+    height: 140px;
+    float: left;
+    background: url("img/03.jpg");
+}
+
+#childContent{
+    width: 1024px;
+}
+
+#contentLeft{
+    width: 630px;
+    height: 257px;
+    float: left;
+}
+#contentRight{
+    width: 394px;
+    height: 257px;
+    float: left;
+}
+
+#RightTop{
+    width: 394px;
+    height: 50px;
+    background: url("img/05.jpg") no-repeat scroll 0 0;
+}
+
+#RightTop form{
+    padding-left: 95px;
+    padding-top: 15px;
+}
+#RightMid{
+    margin-top: -2px;
+}
+#RightBottom{
+    width: 394px;
+    height: 145px;
+    background: url("img/07.jpg") no-repeat scroll 0 0;
+    margin-top: -2px;
+}
+#RightBottom ul{
+    list-style: none;
+    margin: 0px 0 0 30px;
+}
+#RightBottom li{
+    padding-top: 11px;
+    line-height: 15px;
+}
+#RightBottom a{
+    color: #000000;
+    text-decoration: none;
+}
+#RightBottom a:hover{
+    color: purple;
+}
+
+#childContent2{
+    width: 1024px;
+    margin-top: -4px;
+}
+#content2Left{
+    width:239px ;
+    float: left;
+}
+#login{
+    width: 200px;
+    height: 98px;
+    background: url("img/08.jpg") no-repeat scroll 0 0;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.user{
+    width: 120px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    border: 1px solid gray;
+}
+.btn{
+    width: 60px;
+    margin-right: -2px;
+    border: 1px solid gray;
+}
+#leftZG{
+    width: 239px;
+    height: 323px;
+    background: url("img/13.jpg") no-repeat scroll 0 0;
+    margin-top: -3px;
+}
+#leftZG ul{
+    list-style: none;
+    margin-left: 70px;
+}
+#leftZG #ul1{
+    padding-top: 65px;
+}
+
+#leftZG #ul2{
+    padding-top: 30px;
+}
+#leftZG #ul3{
+    padding-top: 25px;
+}
+
+#leftZG li{
+    line-height: 20px;
+}
+
+#leftZG a{
+    text-decoration: none;
+    color: #000000;
+}
+#leftZG a:hover{
+    color: purple;
+}
+
+#leftFL{
+    width: 239px;
+    height: 146px;
+    background: url("img/16.jpg") no-repeat scroll 0 0;
+    margin-top: -2px;
+}
+
+#leftFL p{
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#content2Right{
+    width: 784px;
+    float: left;
+}
+
+#rightTj{
+    width: 784px;
+    float: left;
+}
+#TjLeft{
+    width: 135px;
+    height: 209px;
+    float: left;
+}
+#TjRight{
+    width: 649px;
+    height: 209px;
+    float: left;
+    background: url("img/11-1.jpg") no-repeat scroll 0 0;
+    margin-top: -2px;
+}
+
+#TjRight tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+#TjRight td{
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+#rightBest{
+    width: 784px;
+    margin-top: -4px;
+}
+#bestLeft{
+    width: 135px;
+    float: left;
+}
+#bestRight{
+    width: 649px;
+    height: 442px;
+    background: url("img/15-1.jpg") no-repeat scroll 0 0;
+    float: left;
+    margin-top: -3px;
+}
+
+#footer {
+    width: 1024px;
+    height: 127px;
+    margin-top: -11px;
+    background: url("img/17.jpg") no-repeat scroll 0 0;
+}
+#footDao{
+    text-align: center;
+}
+#footDao a{
+    text-decoration: none;
+    color: #000000;
+}
+#footDao a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+#footer p{
+    text-align: center;
+    padding-top: 5px;
+}

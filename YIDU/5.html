@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*function sum(a1,a2) {
+            var a3=0;
+            for (var i=a1;i<=a2;i++){
+                 a3 += i;
+            }
+            console.log(a3);
+        }
+        sum(1,100);*/
+       /* function getMax(arr) {
+            var max=arr[0];
+            for(var i=1;i<arr.length;i++){
+                if(max<arr[i]){
+                    max=arr[i];
+                }
+            }
+            return max;
+        }
+        getMax([5,98,2,11,500,55,6]);
+        var re = getMax([5,98,2,11,500,55,6]);
+        console.log(re);*/
+      /* function getMax(a,b) {
+           var max=0;
+            if(a>b){
+                max=a;
+            }
+            else {
+                max=b;
+            }
+            return max;
+       }
+        var i=prompt('请输入第一个数字');
+        var j=prompt('请输入第二个数字');
+        alert('最大值为'+getMax(i,j));*/
+      function getSu(s) {
+          for(var i=2;i<s;i++) {
+              if (s % i == 0)  {
+                  alert('该数不是质数')
+              } else {
+                  alert('该数是质数')
+              }
+          }
+            return s;
+      }
+      var su=prompt('请输入整数');
+      getSu(su);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

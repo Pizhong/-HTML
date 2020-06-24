@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通过display:flex实现CSS水平居中</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .big{
+            width: 600px;
+            height: 200px;
+            background: #e74d0a;
+            display: flex;
+            flex-direction: column;
+        }
+        .small{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+<div class="big">
+    <div class="small"></div>
+</div>
+</body>
+</html>

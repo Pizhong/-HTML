@@ -1,0 +1,244 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 12px;
+    font-family: 宋体;
+    color: #a2a2a2;
+}
+
+#wrapper{
+    border: 1px solid #000;
+    border-bottom: 0px;
+    width: 997px;
+    height: 975px;
+    margin: 0 auto;
+}
+
+ #header{
+     width: 997px;
+     height: 15px;
+     float: top;
+     background: #000;
+ }
+ #banner{
+     width: 886px;
+     height: 46px;
+     font-family: "Arial Black";
+     font-size: 30px;
+     color: #bbc05e;
+     padding: 10px 0 0 111px;
+     float: left;
+ }
+ #banner a{
+     color: #bbc05e;
+     text-decoration: none;
+ }
+ #leftBlack{
+     width: 36px;
+     height: 169px;
+     float: left;
+     background: #000;
+ }
+ #contentImg{
+     width: 542px;
+     height: 169px;
+     float: left;
+     padding-left: 70px;
+ }
+ #rightBar{
+     width: 245px;
+     height: 162px;
+     float: left;
+     padding: 7px 0 0 10px;
+     background: #CAC75E;
+ }
+ #rightBar ul{
+     list-style: none;
+ }
+ #rightBar li{
+     width: 160px;
+     font-family: 楷体;
+     font-size: 30px;
+     border: 1px solid rgba(249,238,99,0.61);
+     border-radius: 6px;
+     display: inline-block;
+     cursor: pointer;
+     -moz-box-shadow: inset 0px 1px 0px 0px rgba(249,239,19,0.61);
+     box-shadow: inset 0px 1px 0px 0px rgba(249,239,19,0.61);
+     background-color: rgba(249,195,122,0.61);
+     padding: 1px 30px;
+     text-align: left;
+ }
+ #rightBar li:hover{
+     background: rgba(230,249,24,0.61);
+ }
+ #rightBar a{
+     color: #000000;
+     text-decoration: none;
+ }
+#contentLeft{
+    width: 521px;
+    height: 650px;
+    float: left;
+    padding-left: 106px;
+}
+.woman{
+    width: 500px;
+    height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 15px;
+    font-family: 黑体;
+    font-weight: bold;
+    float: left;
+    padding-left: 12px;
+}
+#woman_main{
+    width: 508px;
+    height: 146px;
+    line-height: 18px;
+    float: left;
+    padding-left: 10px;
+}
+#woman_content{
+    float: left;
+    width: 290px;
+    padding-right: 10px;
+}
+#woman_content a{
+    text-decoration: none;
+    color: #a2a2a2;
+}
+#woman_content a:hover{
+    color: #000000;
+}
+#flower{
+    color: #333;
+    width: 508px;
+    height: 25px;
+    float: left;
+    padding-left: 10px;
+    line-height: 25px;
+}
+#flower_content{
+    width: 508px;
+    height: 100px;
+    line-height: 18px;
+    float: left;
+    padding-right: 10px;
+}
+#flower_content a{
+    text-decoration: none;
+    color: #a2a2a2;
+}
+#flower_content a:hover{
+    color: #000000;
+}
+#womanBottom{
+    width: 508px;
+    height: 25px;
+    line-height: 25px   ;
+    color: #bcbf5e;
+    text-align: center;
+    float:left;
+    padding-left: 10px;
+}
+#womanBottom a{
+    text-decoration: none;
+    color: #bcbf5e;
+}
+#womanBottom a:hover{
+    color: red;
+}
+.space{
+    width: 508px;
+    height: 25px;
+    line-height: 25px   ;
+    color: #333;
+    text-align: center;
+    float:left;
+    padding-left: 10px;
+}
+#proList{
+    width: 500px;
+    height: 150px;
+    float: left;
+}
+#proList li{
+    list-style:none;
+    color: #999;
+    background: url("img/jian.jpg") no-repeat scroll 10px 6px transparent;
+    float: left;
+    padding-left: 40px;
+    width: 450px;
+    line-height: 25px;
+}
+#proList a{
+    text-decoration: none;
+    color: #a2a2a2;
+}
+#proList a:hover{
+    color: #000000;
+}
+#xian{
+    width: 22px;
+    height: 600px;
+    float: left;
+    background: url("img/rightbian.jpg");
+}
+#contentRight{
+    width: 310px;
+    height: 650px;
+    float: left;
+    padding-left: 15px;
+}
+.rightTitle{
+    width: 230px;
+    height: 17px;
+    color: #000000;
+    font-size: 18px;
+    font-family: 黑体;
+    font-weight: 200;
+    padding-top: 18px;
+    border-bottom: 1px solid #a2a2a2;
+    float: left;
+}
+.rightList ul{
+    display: block;
+    list-style: disc;
+}
+
+.rightList li{
+    width: 230px;
+    line-height: 20px;
+    float: left;
+    padding-top: 5px;
+    border-bottom: 1px dashed #a2a2a2;
+    list-style: none;
+}
+
+.rightList a{
+    color: #a2a2a2;
+    text-decoration: none;
+}
+.rightList a:hover{
+    color: #000000;
+}
+#footer{
+    width: 997px;
+    height: 64px;
+    padding-top: 20px;
+    float: left;
+    text-align: center;
+    background: url("img/buttom.jpg") no-repeat scroll 0 0;
+}
+
+#footer a{
+    color: #a2a2a2;
+}
+#footer a:hover{
+    color: #000000;
+}

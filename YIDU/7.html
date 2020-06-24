@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+   /*      function Hero(name,type,blood,attack) {
+            this.name=name;
+            this.type=type;
+            this.blood=blood;
+            this.attack=attack
+        }
+        var zhang=new Hero('廉颇','力量型','500血量','近战');
+         console.log(zhang);
+
+         function reverse(arr) {
+             for(let i=0;i<arr.length/2;i++ ){
+                 let temp=arr[i];
+                 arr[i]=arr[arr.length-i-1];
+                 arr[arr.length-i-1]=temp;
+             }
+             return arr;
+         }
+         let arr1=reverse(['a','b','c','d','e']);
+         console.log(arr1);*/
+   function getRandom(min,max) {
+        return Math.floor(Math.random()*(max-min+1))+min;
+   }
+   var random=getRandom(1,10);
+   let count=0;
+   while (count<5){
+       let num=prompt("请输入1-10之间的整数");
+       if(num>random){
+           alert('你猜大了');
+       }
+       else  if(num<random){
+           alert('你猜小了');
+       }
+       else {
+           alert('你猜对了！')
+       }
+       count++;
+   }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
